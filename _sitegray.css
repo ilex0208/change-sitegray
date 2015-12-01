@@ -1,0 +1,12 @@
+/* grayforsite by ilex*/
+html{
+	filter:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxmaWx0ZXIgaWQ9ImdyYXlzY2FsZSI+PGZlQ29sb3JNYXRyaXggdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAuMzMzMyAwLjMzMzMgMC4zMzMzIDAgMCAwLjMzMzMgMC4zMzMzIDAuMzMzMyAwIDAgMC4zMzMzIDAuMzMzMyAwLjMzMzMgMCAwIDAgMCAwIDEgMCIvPjwvZmlsdGVyPjwvc3ZnPg==#grayscale);
+	/* Webkit only, Chrome & Safari 6+ */
+	-webkit-filter: grayscale(100%); /* webkit */
+-moz-filter: grayscale(100%); /*firefox*/
+-ms-filter: grayscale(100%); /*ie9*/
+-o-filter: grayscale(100%); /*opera*/
+filter: grayscale(100%);
+filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); 
+filter:gray; /*ie9- */
+}
